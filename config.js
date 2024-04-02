@@ -3,24 +3,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348059540212'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '918653805156'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'maxdavid126@gmail.com'
+global.email = 'dibyenduaditya73@gmail.com'
 global.github = 'https://github.com/Bladeh4x/BLADE-MD'
-global.location = 'Lahore pakistan'
-global.gurl = 'https://instagram.com/alex_david/' // add your username
-global.sudo = process.env.SUDO || "2348069553870"
+global.location = 'Westbengal India'
+global.gurl = 'https://instagram.com/i_aam_adi07/' // add your username
+global.sudo = process.env.SUDO || "918653805156"
 global.devs = '2348069553870'
-global.website = 'https://github.com/Bladeh4x/BLADE-MD' //wa.me/+91000000000000
+global.website = 'https://chat.whatsapp.com/KIks9zxaRujBqDjNEQtY29' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4aace2d012c11509.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  author:  process.env.PACK_AUTHER ||  'BLADE BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY ALEX DAVID',
+  author:  process.env.PACK_AUTHER ||  '𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ',
+  packname:  process.env.PACK_NAME || 'MADE BY 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ',
   
-  botname:   process.env.BOT_NAME === undefined ? "BLADE-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'alexdavid' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ]" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
